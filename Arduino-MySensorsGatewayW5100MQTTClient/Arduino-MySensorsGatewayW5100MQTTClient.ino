@@ -144,7 +144,7 @@ void setup() {
 }
 
 void presentation() {
-  // Present locally attached sensors here    
+  sendSketchInfo("MySensorsMQTT-GW", "2.2.0");
 }
 
 
